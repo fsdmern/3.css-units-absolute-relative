@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - vw vh units Page</title>
+    <style>
+      section {
+        background: lightcoral;
+        width: 90vw;
+        height: 100vh;
+      }
+
+      .bars {
+        height: 10vh;
+        color: black;
+        background-color: white;
+        border: 1px solid;
+      }
+
+      .bar1 {
+        background-color: red;
+        width: 100%;
+      }
+
+      .bar2 {
+        background-color: green;
+        width: 90%;
+      }
+
+      .bar3 {
+        background-color: blue;
+        width: 80%;
+      }
+
+      .bar4 {
+        background-color: yellow;
+        width: 70%;
+      }
+      .bar5 {
+        background-color: blueviolet;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-header">
+      <h1>Welcome to CSS Units</h1>
+      <div class="btn-container">
+        <button class="nav-button" id="abs_button" type="button">
+          "Absolute" Units Page
+        </button>
+        <button class="nav-button" id="per_button" type="button">
+          "%" Units Page
+        </button>
+        <button class="nav-button" id="em_button" type="button">
+          "em" units Page
+        </button>
+        <button class="nav-button" id="rem_button" type="button">
+          "rem" units Page
+        </button>
+      </div>
+
+      <hr />
+    </div>
+
+    <div>
+      <section>
+        <h1>"vw and vh" Relative Units - Usage</h1>
+        <div class="bars bar1"></div>
+        <div class="bars bar2"></div>
+        <div class="bars bar3"></div>
+        <div class="bars bar4"></div>
+        <div class="bars bar5"></div>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - rem units Page</title>
+    <style>
+       .h1-em {
+        font-size: 1rem;
+      }
+
+      li {
+        font-size: 1.5rem;
+      }
+
+      ul {
+        font-size: 2rem;
+      }
+
+      .btn-rem {
+        font-size: 1rem;
+        background-color: red;
+        color: white;
+        border-radius: 0.5rem;
+        padding: 0.3rem;
+      }
+
+      .heading {
+        font-size: 2rem;
+      }
+
+      .btn-em {
+        font-size: 0.75em;
+        background-color: red;
+        color: white;
+        border-radius: 0.5em;
+        padding: 0.2em;
+      }
+
+    </style>
+  </head>
+  <body>
+  <div class="nav-header">
+    <h1>Welcome to CSS Units</h1>
+    <div class="btn-container">
+    <button class="nav-button" id="abs_button" type="button">"Absolute" Units Page</button>
+    <button class="nav-button" id="per_button" type="button">"%" Units Page</button>
+    <button class="nav-button" id="em_button" type="button">"em" units Page</button>
+    <button class="nav-button" id="vwvh_button" type="button">"vw vh" units Page</button>
+    </div>
+  </div>
+  <hr>
+  <div>
+   <section>
+    <h2>"rem" Relative Units - Benefits</h2>
+      <hr>
+      <h1 class="h1-em">em - Todo List</h1>
+      <ul class="ul">
+        <li>One</li>
+        <li>Two</li>
+        <li class="list-level1">
+          Three
+          <ul>
+            <li>Three A</li>
+            <li class="list-level2">
+              Three B
+              <ul class="list-level3">
+                <li>Three B2</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </section>
+      <hr>
+      <button class="btn-rem">Save &hearts;</button>
+      <section>
+       <h1 class="heading">Todo List 
+        <button class="btn-em">Save &hearts;</button></h1>
+        <h2>"rem" Relative Units - when to avoid it</h2>
+      
+      </section>
+</div>
+  </div>
+  </body>
+</html>

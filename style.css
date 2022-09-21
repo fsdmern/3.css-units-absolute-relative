@@ -8,9 +8,9 @@ body {
 }
 #screen {
   padding: 0;
-  margin: 0 1rem;
-  width: 95%;
-  height: 100%;
+  margin: 0.25rem 0.25rem;
+  width: 95vw;
+  height: 100vh;
 }
 
 .nav-button {
@@ -30,15 +30,7 @@ body {
 
 .btn-container {
   display: flex;
-  gap: 4px
+  gap: 4px;
 }
 
 /*Common CSS End*/
-
-.ordered {
-  font-size: 1em;
-}
-
-.unordered {
-  font-size: 1.2rem;
-}

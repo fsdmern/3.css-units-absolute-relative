@@ -1,14 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Types of CSS</title>
-</head>
-<body>
-    <!-- CSS Various Types of Units -->
+    <style>
+      /* body {
+        background: linear-gradient(45deg,black,lightgray )
+      } */
+      h1 {
+        margin: 0.5in;
+      } /* inches  */
+      h2 {
+        font-size: 72px;
+        line-height: 50%;
+        background-color: lightblue;
+      } /* centimeters */
+      h3 {
+        word-spacing: 4mm;
+      } /* millimeters */
+      h3 {
+        letter-spacing: 1Q;
+      } /* quarter-millimeters = 1/4th mm */
+      h4 {
+        font-size: 12pt;
+      } /* points = 1pt = 1/72th of 1in
+*/
+      h4 {
+        font-size: 2pc;
+      } /* picas = 1pc = 1/6th of 1in*/
+
+      p {
+        font-size: 16px;
+      } /* px */
     
+      
     
-</body>
+    </style>
+  </head>
+  <body>
+    <h1 style="margin: 0">CSS Various Types of Units</h1>
+    <h1 style="margin: 0">
+      1. Absolute Units - Fixed in Size with respect to one another
+    </h1>
+    <p>
+      For a CSS device, these dimensions are anchored either a) by relating the
+      physical units to their physical measurements, or b) by relating the pixel
+      unit to the reference pixel.
+    </p>
+    <p>
+      The reference pixel: is the visual angle of one pixel on a device with a
+      pixel density of 96dpi and a distance from the reader of an arm’s length.
+      For a nominal arm’s length of 28 inches, the visual angle is therefore
+      about 0.0213 degrees. For reading at arm’s length, 1px thus corresponds to
+      about 0.26 mm (1/96 inch).
+    </p>
+    <hr />
+    <p>Units - px, pt, cm, mm, Q, in, pc</p>
+    <hr />
+    <h1>I am H1 tag</h1>
+    <h2>I am H2 tag</h2>
+    <h3>I am H3 tag</h3>
+    <h4>I am H4 tag</h4>
+    <p>I am p tag</p>
+    <hr />
+    <h1 style="margin: 0">2. Relative Units</h1>
+    <p>Units - width: 50% means half the width of parent</p>
+    <p>
+      Units - line-height: 50% means half the font size of the element itself
+    </p>
+    <hr />
+    <p>Units - %, em, rem, vw, vh</p>
+
+    <h1>3. Angle Units</h1>
+   <p> Angle Units: the <angle> type and deg, grad, rad, turn units
+Angle values are <dimension>s denoted by abgle. The angle unit identifiers are:</p>
+<ul>
+  <li>deg:
+Degrees. There are 360 degrees in a full circle.</li>
+  <li>grad:
+Gradians, also known as "gons" or "grades". There are 400 gradians in a full circle.</li>
+  <li>rad:
+Radians. There are 2π radians in a full circle.</li>
+  <li>turn:
+Turns. There is 1 turn in a full circle.</li>
+  <li>For example, a right angle is 90deg or 100grad or 0.25turn or approximately 1.57rad.</li>
+</ul>
+
+
+
+   
+  </body>
 </html>
